@@ -14,12 +14,13 @@
 }
 
 
-#numericvalue {
-display: flex;
-float: left;  
-flex-direction: row
-}
+
 .App-header {
+  background-image: url("template.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -29,10 +30,12 @@ flex-direction: row
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App-Margin{
-  margin-top: 3px;
+
+.bigtext {
+  font-size: xx-large;
 }
-input{
+
+input {
   height: 150px;
   width: 150px;
   background-color: beige;
@@ -41,18 +44,28 @@ input{
   font-size: larger;
   text-align: center;
   border-radius: 12%;
-
+  font-size: -webkit-xxx-large;
 
 }
-button{
-  float: left; 
-  display: flex; 
-  flex-direction: row ;
+
+button {
+  float: left;
+  display: flex;
+  flex-direction: row;
   height: 150px;
   width: 150px;
-justify-content : center;
+  justify-content: center;
   align-items: center;
   font-size: larger;
   background-color: rgb(87, 92, 87);
   border-radius: 12%;
+}
+
+h1 {
+  margin: 0%;
+  margin-bottom: 3%;
+}
+
+h2 {
+  margin: 0%;
 }
